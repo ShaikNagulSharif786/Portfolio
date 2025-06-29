@@ -26,15 +26,27 @@
   </header>
 
   <main class="container main-content" role="main">
-    <section id="about" class="section about-section" tabindex="-1" aria-label="About Me">
+    <!-- <section id="about" class="section about-section" tabindex="-1" aria-label="About Me">
       <h1>About Me</h1>
       <p>
         I am Nagul Sharif Shaik, a Computer Science and Engineering graduate from Bapatla Engineering College (2023) and an Electronics and Communication Engineering diploma holder from MBTS Govt Polytechnic. I have hands-on experience in web development, cloud infrastructure, Salesforce development, and networking, and a passion for building secure, scalable backend systems and responsive frontend interfaces.
       </p>
-    </section>
+    </section> -->
+
+    <section id="about" class="section about-section" tabindex="-1" aria-label="About Me" style="display: flex; align-items: flex-start; gap: 20px;">
+  <div style="flex: 1;">
+    <h1>About Me</h1>
+    <p>
+      I am Nagul Sharif Shaik, a Computer Science and Engineering graduate from Bapatla Engineering College (2023) and an Electronics and Communication Engineering diploma holder from MBTS Govt Polytechnic. I have hands-on experience in web development, cloud infrastructure, Salesforce development, and networking, and a passion for building secure, scalable backend systems and responsive frontend interfaces.
+    </p>
+  </div>
+  <div style="flex: 0 0 200px;">
+    <img src="Nagul_Sharif_Shaik.png" alt="Nagul Sharif Photo" style="width: 100%; border-radius: 10px;" />
+  </div>
+</section>
 
     <section id="projects" class="section projects-section" tabindex="-1" aria-label="Projects">
-      <h2>Projects</h2>
+      <h2>Projects <a href="https://github.com/ShaikNagulSharif786" target="_blank">(GitHub)</a></h2> 
       <div class="project-card">
         <h3>E-Wallet App (Paytm Pay)</h3>
         <p><strong>Technologies:</strong> Java, Spring Boot, MySQL, Spring Security, JWT</p>
@@ -51,6 +63,7 @@
         <p>Designing a platform delivering free learning content, career roadmaps, mentorship, and content delivery modules.</p>
       </div>
       <div class="project-card">
+        <!-- //<h3>Frontend Development Clones</h3>  -->
         <h3>Frontend Development Clones</h3>
         <p><strong>Technologies:</strong> HTML5, CSS3, Bootstrap, Tailwind CSS, JavaScript</p>
         <p>Built responsive UI clones of Amazon and Spotify with mobile-friendly interactive user experiences applying modern UI/UX principles.</p>
@@ -75,29 +88,10 @@
       </ul>
     </section>
 
+    
     <section id="experience" class="section experience-section" tabindex="-1" aria-label="Experience">
       <h2>Experience</h2>
       <div class="experience-card">
-        <h3>Bachelor of Technology, Computer Science and Engineering</h3>
-        <p>Bapatla Engineering College, Bapatla, Andhra Pradesh</p>
-        <p>December 2020 – May 2023</p>
-      </div>
-      <div class="experience-card">
-        <h3>Diploma, Electronics and Communication Engineering</h3>
-        <p>MBTS Govt Polytechnic, Guntur, Andhra Pradesh</p>
-        <p>June 2016 – June 2019</p>
-      </div>
-      <div class="experience-card">
-        <h3>Industrial Training - Cisco Networking Academy</h3>
-        <p>MBTS Govt Polytechnic, AP</p>
-        <p>November 2018 – April 2019</p>
-        <p>Learned VLANs, static routing, ACLs, and network configuration using Cisco tools.</p>
-      </div>
-    </section>
-
-    <section id="education" class="section education-section" tabindex="-1" aria-label="Education">
-      <h2>Education</h2>
-      <div class="education-card">
         <h3>Engineer Trainee</h3>
         <p><strong>Cognizant Technology Solutions, Chennai, TN</strong></p>
         <p>July 2024 – November 2024</p>
@@ -106,7 +100,7 @@
           <li>Collaborated with engineering teams to troubleshoot, document solutions, and improve service efficiency.</li>
         </ul>
       </div>
-      <div class="education-card">
+      <div class="experience-card">
         <h3>Salesforce Developer Intern (Virtual Internship)</h3>
         <p><strong>Salesforce</strong></p>
         <p>October 2023 – November 2023</p>
@@ -115,7 +109,7 @@
           <li>Used VS Code, Salesforce CLI, and APIs for integration and debugging tasks.</li>
         </ul>
       </div>
-      <div class="education-card">
+      <div class="experience-card">
         <h3>Web Development Intern</h3>
         <p><strong>Exposys Data Labs, Bapatla Engineering College</strong></p>
         <p>May 2022 – June 2022</p>
@@ -126,19 +120,40 @@
       </div>
     </section>
 
+    <section id="education" class="section education-section" tabindex="-1" aria-label="Education">
+      <h2>Education</h2>
+      <div class="education-card">
+        <h3>Bachelor of Technology, Computer Science and Engineering</h3>
+        <p>Bapatla Engineering College, Bapatla, Andhra Pradesh</p>
+        <p>December 2020 – May 2023</p>
+      </div>
+      <div class="education-card">
+        <h3>Diploma, Electronics and Communication Engineering</h3>
+        <p>MBTS Govt Polytechnic, Guntur, Andhra Pradesh</p>
+        <p>June 2016 – June 2019</p>
+      </div>
+      <div class="education-card">
+        <h3>Industrial Training - Cisco Networking Academy</h3>
+        <p>MBTS Govt Polytechnic, AP</p>
+        <p>November 2018 – April 2019</p>
+        <p>Learned VLANs, static routing, ACLs, and network configuration using Cisco tools.</p>
+      </div>
+    </section>
     
 <section id="contact" class="section contact-section" tabindex="-1" aria-label="Contact">
   <h2>Contact</h2>
-  <!-- <p>If you want to connect,<br>
-     please fill out this form:</p>  -->
-  <a href="https://forms.gle/62nxJvaN9XouynEL7" target="_blank" rel="noopener noreferrer">Lets get Connected!</a>
+  <!-- <p>If you want to connect, please fill out this form:</p> 
+  <a href="https://forms.gle/62nxJvaN9XouynEL7" target="_blank" rel="noopener noreferrer">Lets get Connected!</a> -->
   <p>You can reach me at:</p>
   <ul class="contact-list">
     <li><span class="material-icons" aria-hidden="true">phone</span> <a href="tel:+919705969974">+91 9705969974</a></li>
-    <li><span class="material-icons" aria-hidden="true">email</span> <a href="mailto:nagulsharif55@gmail.com">nagulsharif55@gmail.com</a></li>
-    <li><span class="material-icons" aria-hidden="true">linkedin</span> <a href="https://www.linkedin.com/in/nagul-sharif-shaik-322600195/"
-         target="_blank" rel="noopener">LinkedIn Profile</a></li>
-    <li><span class="material-icons" aria-hidden="true">web</span> <a href="#" target="_blank" rel="noopener">Portfolio Link</a></li>
+    <li><span class="material-icons" aria-hidden="true">email</span> 
+      <a href="mailto:nagulsharif55@gmail.com">nagulsharif55@gmail.com</a></li>
+    <li><span class="material-icons" aria-hidden="true">web</span> 
+      <a href="#" target="_blank" rel="noopener">Portfolio</a></li>
+    <li>
+    <a  href="https://www.linkedin.com/in/nagul-sharif-shaik-322600195/" 
+    target="_blank">Linkedin</a></li>
   </ul>
 </section>
 
